@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/myStyle.css">
+</head>
+<body>
+    <header class="test">
+        <b>
+        <ul class="navl" >
+            <a class="a" href="../index.html"><li class="nav">Home </li> </a>
+            <a class="a" href="./home.html"><li class="nav">Road Map</li></a>
+            <a class="a" href="./registration.html"><li class="nav">Registration Form</li> </a>
+            <a class="a" href="https://iti.gov.eg/home"> <li class="nav"> Contact</li> </a>
+        </ul>
+        </b>
+        <img class="logo" src="../img/ITI_logo.png" alt="iti logo">
+    </header>
+    <br>
+    <div class="center">
+        <h2 >Register - Create Account</h2>
+        <div class="borderdText">
+            <p> Field marked with <span style="color: red;"><b>*</b></span> are compulsory fields</p>
+        </div>
+        <form action="../index.html" method="post">
+        <br>
+        <table>
+            <tr >
+                <td class="td"> <label> <span style="color: red;"><b>*</b></span>Your Name </label> </td>
+                <td> <input style="width: 60%;" type="text" name="name"> </td>
+            </tr>
+            <tr >
+                <td class="td"> <label> <span style="color: red;"><b>*</b></span>E-Mail ID </label> </td>
+                <td > <input style="width: 100%;" type="email" name="email"> </td>
+            </tr>
+            <tr>
+                <td class="td"> <label>Alternate E-Mail ID </label> </td>
+                <td> <input style="width: 100%;" type="email" name="Aemail"> </td>
+            </tr>
+            <tr> <!--question-->
+                <td class="td"> <label>Your phone </label> </td>
+                <td>
+                    <p> Country Code - City Code - Phone Number </p>
+                    <input style="width: 15%;" type="text" name="Country Code">
+                    <p style="display: inline;">-</p>
+                    <input style="width: 10%;" type="text" name="Country Code">
+                    <p style="display: inline;">-</p>
+                    <input type="text" name="Country Code"> 
+                </td>
+            </tr>
+            <tr>
+                <td class="td"> <label>Mob phone </label> </td>
+                <td> <input style="width: 60%;" type="text" name="mob"> </td>
+            </tr>
+            <tr>
+                <td class="td"> <label><span style="color: red;"><b>*</b></span>Your Postal Address </label> </td>
+                <td> <input type="hidden" name="Address"><textarea id="w3review" name="w3review" rows="4" cols="50"></textarea> </td> <!--question-->
+
+                
+            </tr>
+            <tr>
+                <td class="td"> <label><span style="color: red;"><b>*</b></span>Country </label> </td>
+                <td> 
+                    <input type="hidden" name="Country"> 
+                    <select name="Country" >
+                        <option value="cairo">---------------- Select One ----------------</option>
+                        <option value="cairo">cairo</option>
+                        <option value="alexandria">alexandria</option>
+                        <option value="behara">bhera</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="td"> <label><span style="color: red;"><b>*</b></span>Password </label> </td>
+                <td> <input type="password" name="password"> </td>
+            </tr>
+            <tr>
+                <td class="td"> <label><span style="color: red;"><b>*</b></span>Re-Enter Password </label> </td>
+                <td> <input type="password" name="Re-Enter Password"> </td>
+            </tr>
+        </table>
+
+        <div style="text-align: center;">
+            <br>
+            <input type="checkbox" value="accept">
+            <label>I accept the <span><a href="">Trems of Use</a></span> </label>
+            <br> <br>
+            <input type="submit" value="Continue >>">
+            <input type="reset" value="Reset">
+            <br>
+        </div>
+
+
+        </form>
+    </div>
+    <footer>
+        <hr>
+        <h5 style="color: rgb(84, 82, 82); text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;">
+            Copyright 2024 by Alaa Raafeh &reg;. All Rights Reserved.
+        </h5>
+    </footer>
+</body>
+</html>

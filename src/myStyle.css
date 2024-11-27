@@ -1,0 +1,97 @@
+/*:hover*/
+header{
+    background-color: rgb(72, 72, 72);
+    height: 55px;
+    /* note*/
+}
+
+
+.logo{
+    width: 150px;
+/*    float: right;*/
+    height: 50px;
+    margin-top: 2px;
+}
+
+.navl{
+    display: inline;
+    margin-top: 50%;
+
+    height: 100px;
+}
+
+.nav{
+    display: inline;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.a {
+    text-decoration: none; /* Removes the underline */
+}
+
+
+
+
+.test {
+    display: flex;
+    justify-content: space-between;
+  /*  justify-content: center;  x-axis*/
+    align-items: center; /* y-axis*/
+}
+/*
+.right-part {
+    flex: 1;
+    display: flex;
+}
+*/
+/*
+.box {
+    display: inline-block;
+    padding: 10px;
+}
+*/
+div.mycontainer {
+    width:100%;
+    overflow:auto;
+}
+div.mycontainer div {
+    width:33%;  
+    float:left;
+}
+/*
+.spacer {
+    flex-grow: 1;
+}
+
+*/
+
+
+.center {
+    border: 3px solid rgb(162, 212, 162);
+    width: 50%;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+h2{
+    color: rgb(75, 151, 122);
+    margin-left: 15px;
+
+}
+.borderdText{
+    border: 3px dashed rgb(75, 151, 122);
+    background-color: rgb(201, 243, 234);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.td{
+    width: 200px;
+    background-color:rgb(201, 243, 234);
+    text-align: right;
+    margin-left: 10px;
+}
